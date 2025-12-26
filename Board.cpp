@@ -124,8 +124,8 @@ void Board::solveFromStartingBlock(const shared_ptr<Block> &startBlock, const ve
             }
             if (solutions % 100000 == 0) {
                 outputFile.close();
-                outputFile.open("C:/Users/bmegyeri/Desktop/Output/output" + to_string(solutions / 100000) + " (" + to_string(solutions) + " - " + to_string(solutions + 100000) + ")" + ".txt");
-                filename = "C:/Users/bmegyeri/Desktop/Output/output" + to_string(solutions / 100000) + " (" + to_string(solutions) + " - " + to_string(solutions + 100000) + ")" + ".txt";
+                outputFile.open("C:/Users/user/Desktop/Output/output" + to_string(solutions / 100000) + " (" + to_string(solutions) + " - " + to_string(solutions + 100000) + ")" + ".txt");
+                filename = "C:/Users/user/Desktop/Output/output" + to_string(solutions / 100000) + " (" + to_string(solutions) + " - " + to_string(solutions + 100000) + ")" + ".txt";
             }
             if (solutions % 1000 == 0) {
                 cout << solutions << " Found!" << endl;
